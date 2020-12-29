@@ -4,7 +4,7 @@ $blue500: #505F98;
 
 
 body {
-    background: rgb(255, 255, 254);
+    background: rgb(210, 234, 252);
 }
 
 h1, h2, h3, h4 {
@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-color: black;
+color: rgb(248, 6, 6);
 }
 
 .nav {
@@ -26,20 +26,22 @@ color: black;
     height: 60px;
     align-items:center;
 }
-
+.home {
+    margin-left: 260px;
+}
 .home, .about, .contact {
     padding-left: 70px;
     padding-top: 5px;
 }
 
-/*tried using margin auto to get desired spacing on logo and buy button-won't work. Does work when i specify a pixel vale-ask ben why*/
+
 .logo {
     font-size: 25px;
     font-weight: 700;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: $blue500;
-    padding-left: 450px;
-    padding-right: 650px;
+    padding-left: 230px;
+    padding-right: 340px;
 }
 .buy {
     height: 26px;
@@ -56,23 +58,49 @@ ul {
 /*Nav bar ends*/
 
 /*1st section*/
-.container {
+.container-1 {
     display: flex;
-    width: 100%;
-    border: 1px solid black;
-    margin-top: 200px;
+    margin-top: 100px;
+    height: 410px;
 }
-.sub-container {
+.sub-container-1 {
     width:30%;
-    height:400px;
-    border: 1px solid red;
     margin-left: auto;
+    margin-right: 15px;
+
+}
+.image-container-1 {
+    width: 30%;
+    margin-left: 15px;
     margin-right: auto;
 }
-.image-container {
-    width: 30%;
-    height: 400px;
-    border: 1px solid blue;
-    margin-left: auto;
-    margin-right: auto;
+.heading-1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.paragraph-1 {
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.paragraph-1-1 {
+    font-size: 25px;
+    text-align: left;
+}
+.purchase-1 {
+    background-color: $blue900;
+    color: white;
+    border-radius: 2px;
+    width: 160px;
+    height: 26px;
+    margin-top: 40px;
+}
+.learn-1 {
+    color: $blue900;
+    background-color: white;
+    width: 160px;
+    height: 26px;
+    margin-left: 20px;
+    border: 2px solid $blue900;
 }
