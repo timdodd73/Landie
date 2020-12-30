@@ -6,12 +6,16 @@ $blue500: #505F98;
 body {
     background: rgb(208, 232, 240);
 }
-
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
 h1, h2, h3, h4 {
     color: $blue800;
 }
 p, a {
     color: $blue500;
+    font-size: 18px;
 }
 /* Styling for navigation bar*/
 a {
@@ -81,12 +85,10 @@ ul {
     padding-bottom: 20px;
 }
 .paragraph-1 {
-    font-size: 25px;
     text-align: left;
     padding-bottom: 20px;
 }
 .paragraph-1-1 {
-    font-size: 25px;
     text-align: left;
 }
 .purchase-1 {
@@ -104,4 +106,44 @@ ul {
     height: 26px;
     margin-left: 20px;
     border: 2px solid $blue900;
+}
+/*2nd section*/
+.heading-2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-left: 330px;
+}
+.container-2 {
+    display: flex;
+    height: auto;
+}
+.sub-container-2 {
+    width:30%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+.image-container-2 {
+    width:30%;
+    height: 540px;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.title-1 {
+    height:200px;
+    width:200px;
+}
+.title-2 {
+    height:200px;
+    width:200px;
+}
+
+.paragraph-2 {
+    padding-bottom: 20px;
+}
+.paragraph-2-2 {
+    padding-bottom: 70px;
 }
