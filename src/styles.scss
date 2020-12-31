@@ -82,11 +82,11 @@ ul {
 .heading-1 {
     font-size: 50px;
     font-weight: 600;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .paragraph-1 {
     text-align: left;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .paragraph-1-1 {
     text-align: left;
@@ -111,7 +111,7 @@ ul {
 .heading-2 {
     font-size: 40px;
     font-weight: 600;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     margin-left: 330px;
 }
 .container-2 {
@@ -131,7 +131,10 @@ ul {
     margin-right: auto;
     margin-bottom: 100px;
 }
-
+.title-container {
+    display: flex;
+    margin-top: 40px;
+}
 .title-1 {
     height:200px;
     width:200px;
@@ -139,11 +142,38 @@ ul {
 .title-2 {
     height:200px;
     width:200px;
+    padding-left: 90px;
+}
+.title-text {
+    font-size: 15px;
+    padding-top: 20px;
 }
 
 .paragraph-2 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .paragraph-2-2 {
     padding-bottom: 70px;
+}
+/*section 3*/
+.container-3 {
+    display: flex;
+}
+.image-container-3 {
+    width: 30%;
+    margin-left:auto;
+    margin-right: 15px;
+}
+.sub-container-3 {
+    width: 30%;
+    margin-right: auto;
+    margin-left: 15px;
+}
+.heading-3 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.paragraph-3 {
+    padding-bottom: 30px;
 }
