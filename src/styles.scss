@@ -93,7 +93,7 @@ ul {
 .paragraph-1-1 {
     text-align: left;
 }
-.purchase-1, .purchase-now {
+.purchase-1 {
     background-color: $blue900;
     color: white;
     border-radius: 2px;
@@ -175,6 +175,7 @@ ul {
     font-size: 50px;
     font-weight: 600;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 .paragraph-3 {
     padding-bottom: 30px;
@@ -200,6 +201,7 @@ ul {
     font-size: 50px;
     font-weight: 600;
     padding-bottom: 30px;
+    padding-top: 100px
 }
 .paragraph-4 {
     padding-bottom: 30px;
@@ -249,4 +251,15 @@ ul {
     padding-bottom: 15px;
     font-size: 40px;
     font-weight: 600;
+}
+.purchase-now {
+        background-color: $blue900;
+        color: white;
+        border-radius: 2px;
+        width: 160px;
+        height: 26px;    
+        margin-top: 10px;   
+}
+.design-kit {
+    padding-bottom: 50px;
 }
