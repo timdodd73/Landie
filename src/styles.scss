@@ -1,265 +1,275 @@
 $blue900: #091133;
-$blue800: #111B47;
-$blue500: #505F98;
-
+$blue800: #111b47;
+$blue500: #505f98;
 
 body {
-    background: rgb(208, 232, 240, 0.3);
+  background: rgb(208, 232, 240, 0.3);
 }
 h3 {
-    font-size: 25px;
-    font-weight: 600;
+  font-size: 25px;
+  font-weight: 600;
 }
-h1, h2, h3, h4 {
-    color: $blue800;
+h1,
+h2,
+h3,
+h4 {
+  color: $blue800;
 }
-p, a {
-    color: $blue500;
-    font-size: 18px;
+p,
+a {
+  color: $blue500;
+  font-size: 18px;
 }
 /* Styling for navigation bar*/
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
-color: rgb(248, 6, 6);
+  color: rgb(248, 6, 6);
 }
-.container-1, .container-2, .container-3, .container-4, .container-5 {
-    margin-bottom: 100px;
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+  margin-bottom: 100px;
 }
 
 .nav {
-    display: flex;
-    height: 60px;
-    align-items:center;
+  display: flex;
+  height: 60px;
+  align-items: center;
 }
 .home {
-    margin-left: 260px;
+  margin-left: 260px;
 }
-.home, .about, .contact {
-    padding-left: 70px;
-    padding-top: 5px;
+.home,
+.about,
+.contact {
+  padding-left: 70px;
+  padding-top: 5px;
 }
-
 
 .logo {
-    font-size: 25px;
-    font-weight: 700;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: $blue500;
-    padding-left: 230px;
-    padding-right: 340px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: $blue500;
+  padding-left: 230px;
+  padding-right: 340px;
 }
 .buy {
-    height: 26px;
-    width: 160px;
-    color:white;
-    background-color: $blue800;
-    border-radius: 5px;
+  height: 26px;
+  width: 160px;
+  color: white;
+  background-color: $blue800;
+  border-radius: 5px;
 }
 ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 /*Nav bar ends*/
 
 /*1st section*/
 .container-1 {
-    display: flex;
-    margin-top: 100px;
-    height: 410px;
+  display: flex;
+  margin-top: 100px;
+  height: 410px;
 }
 .sub-container-1 {
-    width:30%;
-    margin-left: auto;
-    margin-right: 15px;
-
+  width: 30%;
+  margin-left: auto;
+  margin-right: 15px;
 }
 .image-container-1 {
-    width: 30%;
-    margin-left: 15px;
-    margin-right: auto;
+  width: 30%;
+  margin-left: 15px;
+  margin-right: auto;
 }
 .heading-1 {
-    font-size: 50px;
-    font-weight: 600;
-    padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 30px;
 }
 .paragraph-1 {
-    text-align: left;
-    padding-bottom: 30px;
+  text-align: left;
+  padding-bottom: 30px;
 }
 .paragraph-1-1 {
-    text-align: left;
+  text-align: left;
 }
 .purchase-1 {
-    background-color: $blue900;
-    color: white;
-    border-radius: 2px;
-    width: 160px;
-    height: 26px;
-    margin-top: 40px;
+  background-color: $blue900;
+  color: white;
+  border-radius: 2px;
+  width: 160px;
+  height: 26px;
+  margin-top: 40px;
 }
 .learn-1 {
-    color: $blue900;
-    background-color: white;
-    width: 160px;
-    height: 26px;
-    margin-left: 20px;
-    border: 2px solid $blue900;
+  color: $blue900;
+  background-color: white;
+  width: 160px;
+  height: 26px;
+  margin-left: 20px;
+  border: 2px solid $blue900;
 }
 /*2nd section*/
 .heading-2 {
-    font-size: 40px;
-    font-weight: 600;
-    padding-bottom: 30px;
-    margin-left: 330px;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  margin-left: 330px;
 }
 .container-2 {
-    display: flex;
-    height: auto;
+  display: flex;
+  height: auto;
 }
 .sub-container-2 {
-    width:30%;
-    height: 700px;
-    margin-left: auto;
-    margin-right: 15px;
+  width: 30%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: 15px;
 }
 .image-container-2 {
-    width:30%;
-    height: 540px;
-    margin-left: 15px;
-    margin-right: auto;
+  width: 30%;
+  height: 540px;
+  margin-left: 15px;
+  margin-right: auto;
 }
 .title-container {
-    display: flex;
-    margin-top: 40px;
+  display: flex;
+  margin-top: 40px;
 }
 .title-1 {
-    height:200px;
-    width:200px;
+  height: 200px;
+  width: 200px;
 }
 .title-2 {
-    height:200px;
-    width:200px;
-    padding-left: 90px;
+  height: 200px;
+  width: 200px;
+  padding-left: 90px;
 }
 .title-text {
-    font-size: 15px;
-    padding-top: 20px;
+  font-size: 15px;
+  padding-top: 20px;
 }
 
 .paragraph-2 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 .paragraph-2-2 {
-    padding-bottom: 70px;
+  padding-bottom: 70px;
 }
 /*section 3*/
 .container-3 {
-    display: flex;
-    padding-bottom: 100px;
+  display: flex;
+  padding-bottom: 100px;
 }
 /*move image to the right-its currently aligned with the container above*/
 .image-container-3 {
-    width: 30%;
-    margin-left:auto;
+  width: 30%;
+  margin-left: auto;
 }
 .sub-container-3 {
-    width: 30%;
-    margin-right: auto;
-    margin-left: 15px
+  width: 30%;
+  margin-right: auto;
+  margin-left: 15px;
 }
 .heading-3 {
-    font-size: 50px;
-    font-weight: 600;
-    padding-bottom: 30px;
-    padding-top: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .paragraph-3 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 /*section 4*/
 
 .container-4 {
-    display: flex;
-    padding-bottom: 100px;
+  display: flex;
+  padding-bottom: 100px;
 }
-.image-container-4, .sub-container-4 {
-    width: 30%;
+.image-container-4,
+.sub-container-4 {
+  width: 30%;
 }
 .image-container-4 {
-    margin-right: 15px;
-    margin-left: auto;
+  margin-right: 15px;
+  margin-left: auto;
 }
 .sub-container-4 {
-    margin-right: auto;
-    margin-left: 15px ;
+  margin-right: auto;
+  margin-left: 15px;
 }
 .heading-4 {
-    font-size: 50px;
-    font-weight: 600;
-    padding-bottom: 30px;
-    padding-top: 100px
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  padding-top: 100px;
 }
 .paragraph-4 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 .container-4 {
-    display: flex;
-    padding-bottom: 100px;
+  display: flex;
+  padding-bottom: 100px;
 }
 /*section 5*/
 .container-5 {
-    display: flex;
+  display: flex;
 }
-.image-container-5, .sub-container-5 {
-    width: 30%;
+.image-container-5,
+.sub-container-5 {
+  width: 30%;
 }
 .image-container-5 {
-    margin-right: 15px;
-    margin-left: auto;
+  margin-right: 15px;
+  margin-left: auto;
 }
 .sub-container-5 {
-    margin-right: auto;
-    margin-left: 15px ;
+  margin-right: auto;
+  margin-left: 15px;
 }
 .heading-5 {
-    font-size: 50px;
-    font-weight: 600;
-    padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 30px;
 }
 .paragraph-5 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 /*purchase section*/
 .purchase-section {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom:100px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px;
 }
 .price-heading {
-    font-size: 35px;
-    font-weight: 600;
-    padding-bottom: 30px;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 30px;
 }
 .dollars {
-    padding-top: 40px;
-    padding-bottom: 15px;
-    font-size: 40px;
-    font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: 40px;
+  font-weight: 600;
 }
 .purchase-now {
-        background-color: $blue900;
-        color: white;
-        border-radius: 2px;
-        width: 160px;
-        height: 26px;    
-        margin-top: 10px;   
+  background-color: $blue900;
+  color: white;
+  border-radius: 2px;
+  width: 160px;
+  height: 26px;
+  margin-top: 10px;
 }
 .design-kit {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
